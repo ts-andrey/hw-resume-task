@@ -5,237 +5,329 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HW Resume</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body class="body">
     <header class="header">
-      <div class="intro">
-        <h1>Andrei Tsakunou</h1>
-        <h2>Junior front-end developer</h2>
+      <div class="wrapper wrapper-header">
+        <div class="intro">
+          <h1 class="name">Andrei Tsakunou</h1>
+          <h2 class="specialty">Junior front-end developer</h2>
+        </div>
+        <picture class="image-wrapper">
+          <source media="(min-width: 300px)" srcset="./assets/photo/image-original-500.webp" />
+          <source media="(min-width: 700px)" srcset="./assets/photo/image-original-900.webp" />
+          <source media="(min-width: 1200px)" srcset="./assets/photo/image-original-1200.webp" />
+          <source media="(min-width: 1500px)" srcset="./assets/photo/image-original-1500.webp" />
+          <source media="(min-width: 2000px)" srcset="./assets/photo/image-original-2000.webp" />
+          <img class="image" src="./assets/photo/image-original-2000.webp" alt="resume photo" />
+        </picture>
       </div>
-      <img class="image" src="./assets/photo.webp" alt="resume photo" />
     </header>
-    <aside>
-      <ul class="skills">
-        <li class="skills__item html-item skill-lvl">
-          HTML: <span class="skill-lvl__item skill-lvl__item_type_css"></span>
-          <ul class="html-item__skills html-skills">
-            <li class="html-skills__item skill-lvl">
-              BEM: <span class="skill-lvl__item skill-lvl__item_type_bem"></span>
-            </li>
-            <li class="html-skills__item skill-lvl">
-              Reveal: <span class="skill-lvl__item skill-lvl__item_type_reveal"></span>
-            </li>
-          </ul>
-        </li>
-
-        <li class="skills__item css-item skill-lvl">
-          CSS: <span class="skill-lvl__item skill-lvl__item_type_css"></span>
-          <ul class="css-item__skills css-skills">
-            <li class="css-skills__item skill-lvl">
-              PostCSS: <span class="skill-lvl__item skill-lvl__item_type_postcss"></span>
-            </li>
-            <li class="css-skills__item skill-lvl">
-              SASS: <span class="skill-lvl__item skill-lvl__item_type_sass"></span>
-            </li>
-          </ul>
-        </li>
-
-        <li class="skills__item git-item skill-lvl">
-          Git: <span class="skill-lvl__item skill-lvl__item_type_git"></span>
-          <ul class="git-item__skills git-skills">
-            <li class="git-skills__item skill-lvl">
-              GitHub: <span class="skill-lvl__item skill-lvl__item_type_github"></span>
-            </li>
-          </ul>
-        </li>
-
-        <li class="skills__item js-item skill-lvl">
-          JavaScript: <span class="skill-lvl__item skill-lvl__item_type_js"></span>
-          <ul class="js-item__skills js-skills">
-            <li class="js-skills__item skill-lvl">
-              TypeScript: <span class="skill-lvl__item skill-lvl__item_type_ts"></span>
-            </li>
-          </ul>
-        </li>
-
-        <li class="skills__item skill-lvl">
-          WebPack: <span class="skill-lvl__item skill-lvl__item_type_webpack"></span>
-        </li>
-
-        <li class="skills__item node-item skill-lvl">
-          Node.js: <span class="skill-lvl__item skill__item_type_node"></span>
-          <ul class="node-item__skills node-skills">
-            <li class="node-skills__item skill-lvl">
-              npm: <span class="skill-lvl__item skill-lvl__item_type_npm"></span>
-            </li>
-            <li class="node-skills__item skill-lvl">
-              yarn: <span class="skill-lvl__item skill-lvl__item_type_yarn"></span>
-            </li>
-          </ul>
-        </li>
-
-        <li class="skills__item skill-lvl">
-          VSCode: <span class="skill-lvl__item skill-lvl__item_type_vscode"></span>
-        </li>
-        <li class="skills__item skill-lvl">Figma: <span class="skill-lvl__item skill-lvl__item_type_figma"></span></li>
-      </ul>
-
-      <ul class="contacts">
-        <li class="contants__item">
-          <a href="" target="_blank">
-            <svg
-              id="Layer_1"
-              style="enable-background: new 0 0 512 512"
-              version="1.1"
-              viewBox="0 0 512 512"
-              xml:space="preserve"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-            >
-              <style type="text/css">
-                .st0 {
-                  fill: url(#SVGID_1_);
-                }
-                .st1 {
-                  fill: #ffffff;
-                }
-                .st2 {
-                  fill: #d2e4f0;
-                }
-                .st3 {
-                  fill: #b5cfe4;
-                }
-              </style>
-              <g>
-                <linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="256" x2="256" y1="0" y2="510.1322">
-                  <stop offset="0" style="stop-color: #41bce7" />
-                  <stop offset="1" style="stop-color: #22a6dc" />
-                </linearGradient>
-                <circle class="st0" cx="256" cy="256" r="256" />
-                <g>
-                  <path
-                    class="st1"
-                    d="M380.6,147.3l-45.7,230.5c0,0-6.4,16-24,8.3l-105.5-80.9L167,286.7l-64.6-21.7c0,0-9.9-3.5-10.9-11.2    c-1-7.7,11.2-11.8,11.2-11.8l256.8-100.7C359.5,141.2,380.6,131.9,380.6,147.3z"
-                  />
-                  <path
-                    class="st2"
-                    d="M197.2,375.2c0,0-3.1-0.3-6.9-12.4c-3.8-12.1-23.3-76.1-23.3-76.1l155.1-98.5c0,0,9-5.4,8.6,0    c0,0,1.6,1-3.2,5.4c-4.8,4.5-121.8,109.7-121.8,109.7"
-                  />
-                  <path class="st3" d="M245.8,336.2l-41.7,38.1c0,0-3.3,2.5-6.8,0.9l8-70.7" />
-                </g>
-              </g>
-            </svg>
-            <span>telegram: ts-andrey</span>
-          </a>
-        </li>
-        <li class="contants__item">
-          <svg height="48px" viewBox="0 0 48 48" width="48px" xmlns="http://www.w3.org/2000/svg">
-            <path d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z" fill="#4caf50" />
-            <path d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z" fill="#1e88e5" />
-            <polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17" />
-            <path
-              d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"
-              fill="#c62828"
-            />
-            <path
-              d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"
-              fill="#fbc02d"
-            />
-          </svg>
-          <a href="" target="_blank"><span>gmail: andrey.tsakunov@gmail.com</span> </a>
-        </li>
-        <li class="contants__item"></li>
-        <li class="contants__item"></li>
-        <li class="contants__item"></li>
-      </ul>
-    </aside>
     <main class="main">
-      <section class="about">
-        <h2>About myself</h2>
-        <p>
-          After I graduate high school I didn't know where to go and I didn't found my passion yet. So among all
-          available paths I chose to become an engineer. It was very intresting expirience for me throughout which I got
-          technical way of thinking and learned how to solve problems. In 2016 I got my master in energetics and in the
-          process I get a little taste of programming and I liked it, but wasn't able to follow my passion due to my
-          family issues.
-        </p>
-        <p>
-          In 2021 I finally got my chance to follow my passion and I chose for myself front-end specialty. I found good
-          course that satisfied my expectations and give me a lot of practice. It wasn't an easy course, but in the same
-          time it brought me more enjoyment after each task completion. During the courses I really enjoyed spending my
-          time behind coding and some of my projects have been recognized as some of the best of all the work of the
-          people I have studied with.
-        </p>
-        <p>
-          My goal is endless improvement in order to become the best developer I can to get more possibilities in
-          providing best services and help to found the most creative solutions for any kind of problems because I like
-          learning and helping.
-        </p>
-      </section>
-      <section class="education">
-        <h2>Education</h2>
+      <div class="wrapper wrapper-main">
+        <aside class="brief">
+          <ul class="skills">
+            <li class="skills__item html-item skillset">
+              <h4 class="skill-lvl">HTML: <span class="skill-lvl__item skill-lvl__item_type_html"></span></h4>
+              <ul class="html-item__skills html-skills">
+                <li class="html-skills__item skill-lvl subtype">
+                  BEM: <span class="skill-lvl__item skill-lvl__item_type_bem"></span>
+                </li>
+                <li class="html-skills__item skill-lvl subtype">
+                  Reveal: <span class="skill-lvl__item skill-lvl__item_type_reveal"></span>
+                </li>
+              </ul>
+            </li>
+            <li class="skills__item css-item skillset">
+              <h4 class="skill-lvl">CSS: <span class="skill-lvl__item skill-lvl__item_type_css"></span></h4>
+              <ul class="css-item__skills css-skills">
+                <li class="css-skills__item skill-lvl subtype">
+                  PostCSS: <span class="skill-lvl__item skill-lvl__item_type_postcss"></span>
+                </li>
+                <li class="css-skills__item skill-lvl subtype">
+                  SASS: <span class="skill-lvl__item skill-lvl__item_type_sass"></span>
+                </li>
+              </ul>
+            </li>
+            <li class="skills__item git-item skillset">
+              <h4 class="skill-lvl">Git: <span class="skill-lvl__item skill-lvl__item_type_git"></span></h4>
+              <ul class="git-item__skills git-skills">
+                <li class="git-skills__item skill-lvl subtype">
+                  GitHub: <span class="skill-lvl__item skill-lvl__item_type_github"></span>
+                </li>
+              </ul>
+            </li>
+            <li class="skills__item js-item skillset">
+              <h4 class="skill-lvl">JavaScript: <span class="skill-lvl__item skill-lvl__item_type_js"></span></h4>
+              <ul class="js-item__skills js-skills">
+                <li class="js-skills__item skill-lvl subtype">
+                  TypeScript: <span class="skill-lvl__item skill-lvl__item_type_ts"></span>
+                </li>
+              </ul>
+            </li>
+            <li class="skills__item skillset">
+              <h4 class="skill-lvl">WebPack: <span class="skill-lvl__item skill-lvl__item_type_webpack"></span></h4>
+            </li>
+            <li class="skills__item node-item skillset">
+              <h4 class="skill-lvl">Node.js: <span class="skill-lvl__item skill-lvl__item_type_node"></span></h4>
+              <ul class="node-item__skills node-skills">
+                <li class="node-skills__item skill-lvl subtype">
+                  npm: <span class="skill-lvl__item skill-lvl__item_type_npm"></span>
+                </li>
+                <li class="node-skills__item skill-lvl subtype">
+                  yarn: <span class="skill-lvl__item skill-lvl__item_type_yarn"></span>
+                </li>
+              </ul>
+            </li>
+            <li class="skills__item skillset">
+              <h4 class="skill-lvl">VSCode: <span class="skill-lvl__item skill-lvl__item_type_vscode"></span></h4>
+            </li>
+            <li class="skills__item skillset">
+              <h4 class="skill-lvl">Figma: <span class="skill-lvl__item skill-lvl__item_type_figma"></span></h4>
+            </li>
+          </ul>
+          <ul class="lang-skills">
+            <li class="skills__item lang__skillset">
+              <h4 class="skill-lvl">Languages:</h4>
+            </li>
+            <li class="lang-skills__item skill-lvl subtype">
+              english (B1+): <span class="skill-lvl__item skill-lvl__item_type_eng"></span>
+            </li>
+            <li class="lang-skills__item skill-lvl subtype">
+              russian: <span class="skill-lvl__item skill-lvl__item_type_rus">native</span>
+            </li>
+            <li class="lang-skills__item skill-lvl subtype">
+              belorussian: <span class="skill-lvl__item skill-lvl__item_type_bel"></span>
+            </li>
+            <li class="lang-skills__item skill-lvl subtype">
+              ukrainian: <span class="skill-lvl__item skill-lvl__item_type_ua"></span>
+            </li>
+          </ul>
+          <ul class="contacts">
+            <li class="contants__item">
+              <i class="contacts__type">telegram:</i>
+              <a href="https://telegram.me/ts-andrey" target="_blank" class="contants__link">
+                <svg
+                  class="contacts__icon"
+                  id="Layer_1"
+                  style="enable-background: new 0 0 512 512"
+                  version="1.1"
+                  viewBox="0 0 512 512"
+                  xml:space="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <style type="text/css">
+                    .st0 {
+                      fill: url(#SVGID_1_);
+                    }
+                    .st1 {
+                      fill: #ffffff;
+                    }
+                    .st2 {
+                      fill: #d2e4f0;
+                    }
+                    .st3 {
+                      fill: #b5cfe4;
+                    }
+                  </style>
+                  <g>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="SVGID_1_" x1="256" x2="256" y1="0" y2="510.1322">
+                      <stop offset="0" style="stop-color: #41bce7" />
+                      <stop offset="1" style="stop-color: #22a6dc" />
+                    </linearGradient>
+                    <circle class="st0" cx="256" cy="256" r="256" />
+                    <g>
+                      <path
+                        class="st1"
+                        d="M380.6,147.3l-45.7,230.5c0,0-6.4,16-24,8.3l-105.5-80.9L167,286.7l-64.6-21.7c0,0-9.9-3.5-10.9-11.2    c-1-7.7,11.2-11.8,11.2-11.8l256.8-100.7C359.5,141.2,380.6,131.9,380.6,147.3z"
+                      />
+                      <path
+                        class="st2"
+                        d="M197.2,375.2c0,0-3.1-0.3-6.9-12.4c-3.8-12.1-23.3-76.1-23.3-76.1l155.1-98.5c0,0,9-5.4,8.6,0    c0,0,1.6,1-3.2,5.4c-4.8,4.5-121.8,109.7-121.8,109.7"
+                      />
+                      <path class="st3" d="M245.8,336.2l-41.7,38.1c0,0-3.3,2.5-6.8,0.9l8-70.7" />
+                    </g>
+                  </g>
+                </svg>
+                <span class="contacts__text"> ts-andrey</span>
+              </a>
+            </li>
+            <li class="contants__item">
+              <i class="contacts__type">gmail:</i>
+              <a href="mailto:andrey.tsakunov@gmail.com" target="_blank" class="contants__link">
+                <svg
+                  class="contacts__icon"
+                  height="48px"
+                  viewBox="0 0 48 48"
+                  width="48px"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z" fill="#4caf50" />
+                  <path d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z" fill="#1e88e5" />
+                  <polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17" />
+                  <path
+                    d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"
+                    fill="#c62828"
+                  />
+                  <path
+                    d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"
+                    fill="#fbc02d"
+                  />
+                </svg>
+                <span class="contacts__text"> andrey.tsakunov@gmail.com</span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+        <div class="general">
+          <section class="about">
+            <h2 class="header-first">About myself</h2>
+            <p>
+              After I graduate high school I didn't know where to go and I didn't found my passion yet. So among all
+              available paths I chose to become an engineer. It was very intresting expirience for me throughout which I
+              got technical way of thinking and learned how to solve problems. In 2016 I got my master in energetics and
+              in the process I get a little taste of programming and I liked it, but wasn't able to follow my passion
+              due to my family issues.
+            </p>
+            <p>
+              In 2021 I finally got my chance to follow my passion and I chose for myself front-end specialty. I found
+              good course that satisfied my expectations and give me a lot of practice. It wasn't an easy course, but in
+              the same time it brought me more enjoyment after each task completion. During the courses I really enjoyed
+              spending my time behind coding and some of my projects have been recognized as some of the best of all the
+              work of the people I have studied with.
+            </p>
+            <p>
+              My goal is endless improvement in order to become the best developer I can to get more possibilities in
+              providing best services and help to found the most creative solutions for any kind of problems because I
+              like learning and helping.
+            </p>
+          </section>
+          <section class="education">
+            <h2>Education</h2>
+            <h3>University</h3>
+            <div class="education__item edu-item">
+              <h3 class="edu-item__header">Master of science in electiral engeneering</h3>
+              <a href="https://en.gstu.by/faculties/power-engineering-faculty" target="_blank" class="edu-item__link"
+                >Sukhoi State Technical University Of Gomel 2014-2016</a
+              >
+            </div>
+            <div class="education__item edu-item">
+              <h3 class="edu-item__header">Bachelor of science in electiral engeneering</h3>
+              <a href="https://en.gstu.by/faculties/power-engineering-faculty" target="_blank" class="edu-item__link"
+                >Sukhoi State Technical University Of Gomel 2009-2014</a
+              >
+            </div>
+            <h3>Courses</h3>
+            <div class="education__item edu-item">
+              <h3 class="edu-item__header">JavaScript/Front-end (basics)</h3>
+              <a href="https://rs.school/js-stage0/" target="_blank" class="edu-item__link"
+                >The Rolling Scopes School 2021</a
+              >
+            </div>
+            <div class="education__item edu-item">
+              <h3 class="edu-item__header">JavaScript/Front-end</h3>
+              <a href="https://rs.school/js/" target="_blank" class="edu-item__link">The Rolling Scopes School 2022</a>
+            </div>
+          </section>
+          <section class="projects">
+            <h2>Projects</h2>
+            <h4>My projects from <i>JavaScript/Front-end (basics)</i> course</h4>
+            <a
+              href="https://ts-andrey.github.io/rsschool-js-basics/drum-kit/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="projects__link"
+              >Drum Kit</a
+            >
+            <a
+              href="https://ts-andrey.github.io/rsschool-js-basics/custom-video-player/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="projects__link"
+              >Custom Video Player</a
+            >
+            <a
+              href="https://ts-andrey.github.io/rsschool-js-basics/museum/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="projects__link"
+              >Museum</a
+            >
 
-        <h3>University</h3>
-        <div class="education__item edu-item">
-          <h3 class="edu-item__header">Master of science in electiral engeneering</h3>
-          <a href="https://en.gstu.by/faculties/power-engineering-faculty" target="_blank" class="edu-item__link"
-            >Sukhoi State Technical University Of Gomel 2014-2016</a
-          >
+            <h4>My projects from <i>JavaScript/Front-end</i> course</h4>
+            <a
+              href="https://ts-andrey.github.io/rsschool-js-core/art-quiz/dist/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="projects__link"
+              >Art Quiz</a
+            >
+            <a
+              href="https://ts-andrey.github.io/rsschool-js-core/christmas-task/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="projects__link"
+              >Christmas App</a
+            >
+            <a
+              href="https://ts-andrey.github.io/rsschool-js-core/momentum/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="projects__link"
+              >Momentum</a
+            >
+            <a
+              href="https://ts-andrey.github.io/rsschool-js-core/museum/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="projects__link"
+              >Museum</a
+            >
+            <a
+              href="https://ts-andrey.github.io/rslang/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="projects__link"
+              >RS Lang</a
+            >
+          </section>
         </div>
-        <div class="education__item edu-item">
-          <h3 class="edu-item__header">Bachelor of science in electiral engeneering</h3>
-          <a href="https://en.gstu.by/faculties/power-engineering-faculty" target="_blank" class="edu-item__link"
-            >Sukhoi State Technical University Of Gomel 2009-2014</a
-          >
-        </div>
-
-        <h3>Courses</h3>
-        <div class="education__item edu-item">
-          <h3 class="edu-item__header">JavaScript/Front-end (basics)</h3>
-          <a href="https://rs.school/js-stage0/" target="_blank" class="edu-item__link"
-            >The Rolling Scopes School 2021</a
-          >
-        </div>
-        <div class="education__item edu-item">
-          <h3 class="edu-item__header">JavaScript/Front-end</h3>
-          <a href="https://rs.school/js/" target="_blank" class="edu-item__link">The Rolling Scopes School 2022</a>
-        </div>
-      </section>
-      <section class="projects">
-        <h2>Projects</h2>
-        <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-      </section>
+      </div>
     </main>
     <footer class="footer">
-      <a class="git" href="" target="_blank">
-        <svg
-          enable-background="new 0 0 32 32"
-          height="32px"
-          id="Layer_1"
-          version="1.0"
-          viewBox="0 0 32 32"
-          width="32px"
-          xml:space="preserve"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-        >
-          <path
-            clip-rule="evenodd"
-            d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z"
-            fill="#181616"
-            fill-rule="evenodd"
-          />
-          <g />
-          <g />
-          <g />
-          <g />
-          <g />
-          <g />
-        </svg>
-        <span class="git-text">Adrei Tsakunou</span>
-      </a>
-      <span class="year">2022</span>
+      <div class="wrapper wrapper-footer">
+        <a class="git wrapper-footer__item" href="https://github.com/ts-andrey" target="_blank">
+          <svg
+            class="footer__icon"
+            enable-background="new 0 0 32 32"
+            height="32px"
+            id="Layer_1"
+            version="1.0"
+            viewBox="0 0 32 32"
+            width="32px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M16.003,0C7.17,0,0.008,7.162,0.008,15.997  c0,7.067,4.582,13.063,10.94,15.179c0.8,0.146,1.052-0.328,1.052-0.752c0-0.38,0.008-1.442,0-2.777  c-4.449,0.967-5.371-2.107-5.371-2.107c-0.727-1.848-1.775-2.34-1.775-2.34c-1.452-0.992,0.109-0.973,0.109-0.973  c1.605,0.113,2.451,1.649,2.451,1.649c1.427,2.443,3.743,1.737,4.654,1.329c0.146-1.034,0.56-1.739,1.017-2.139  c-3.552-0.404-7.286-1.776-7.286-7.906c0-1.747,0.623-3.174,1.646-4.292C7.28,10.464,6.73,8.837,7.602,6.634  c0,0,1.343-0.43,4.398,1.641c1.276-0.355,2.645-0.532,4.005-0.538c1.359,0.006,2.727,0.183,4.005,0.538  c3.055-2.07,4.396-1.641,4.396-1.641c0.872,2.203,0.323,3.83,0.159,4.234c1.023,1.118,1.644,2.545,1.644,4.292  c0,6.146-3.74,7.498-7.304,7.893C19.479,23.548,20,24.508,20,26c0,2,0,3.902,0,4.428c0,0.428,0.258,0.901,1.07,0.746  C27.422,29.055,32,23.062,32,15.997C32,7.162,24.838,0,16.003,0z"
+              fill="#181616"
+              fill-rule="evenodd"
+            />
+            <g />
+            <g />
+            <g />
+            <g />
+            <g />
+            <g />
+          </svg>
+          <span class="git-text">Andrei Tsakunou</span>
+        </a>
+        <span class="year wrapper-footer__item">© 2022</span>
+      </div>
     </footer>
   </body>
 </html>
