@@ -407,6 +407,10 @@ h3 {
   background: linear-gradient(to right, #ff2e63 0% 50%, #eaeaea 50% 100%);
 }
 
+.skill-lvl__item_type_angular {
+  background: linear-gradient(to right, #ff2e63 0% 30%, #eaeaea 45% 100%);
+}
+
 .skill-lvl__item_type_webpack {
   background: linear-gradient(to right, #ff2e63 0% 70%, #eaeaea 70% 100%);
 }
